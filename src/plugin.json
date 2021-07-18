@@ -1,0 +1,27 @@
+{
+  "$schema": "https://raw.githubusercontent.com/grafana/grafana/master/docs/sources/developers/plugins/plugin.schema.json",
+  "type": "datasource",
+  "name": "Ricky and Morty",
+  "id": "yesoreyeram-rickandmorty-datasource",
+  "metrics": true,
+  "info": {
+    "description": "Rick & Morty Datasource plugin for Grafana",
+    "author": {
+      "name": "Sriramajeyam",
+      "url": "https://sriramajeyam.com"
+    },
+    "keywords": ["Rick & Morty", "Rick and Morty", "Rick", "Morty"],
+    "logos": {
+      "small": "img/rick-and-morty.png",
+      "large": "img/rick-and-morty.png"
+    },
+    "links": [],
+    "screenshots": [],
+    "version": "%VERSION%",
+    "updated": "%TODAY%"
+  },
+  "dependencies": {
+    "grafanaDependency": ">=7.3.0",
+    "plugins": []
+  }
+}

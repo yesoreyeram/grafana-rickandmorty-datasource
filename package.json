@@ -1,0 +1,29 @@
+{
+  "name": "grafana-rickandmorty-datasource",
+  "version": "0.0.1",
+  "description": "Rick & Morty Datasource plugin for Grafana",
+  "scripts": {
+    "build": "grafana-toolkit plugin:build",
+    "test": "grafana-toolkit plugin:test",
+    "dev": "grafana-toolkit plugin:dev",
+    "watch": "grafana-toolkit plugin:dev --watch",
+    "sign": "grafana-toolkit plugin:sign",
+    "start": "yarn watch"
+  },
+  "author": "Sriramajeyam",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@grafana/data": "7.3.0",
+    "@grafana/ui": "7.3.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@grafana/toolkit": "7.3.0",
+    "@testing-library/jest-dom": "5.4.0",
+    "@testing-library/react": "^10.0.2",
+    "@types/lodash": "latest"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
